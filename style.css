@@ -1,0 +1,29 @@
+body{
+    
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: paleturquoise;
+   
+}
+.buttons{
+    width: 10vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+.btn{
+  background-color: palevioletred;
+  border: 0;
+  padding: 25px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.3s ease;
+
+}
+.btn:hover{
+    background-color: #cccc;
+}
